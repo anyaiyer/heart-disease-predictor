@@ -7,17 +7,29 @@ This dataset is from UCI Machine Learning and can be downloaded here: https://ww
 In the data, you are given several attributes: 
 
  *1. age
+ 
  2. sex
+ 
  3. chest pain type (4 values)
+ 
  4. resting blood pressure
+ 
  5. serum cholesterol in mg/dl
+ 
  6.  fasting blood sugar > 120 mg/dl
+ 
  7. resting electrocardiographic results (values 0, 1, 2)
+ 
  8. maximum heart rate achieved
+ 
  9. exercise induced angina
+ 
  10. oldpeak = ST depression induced by exercise relative to rest 
+ 
  11. the slope of the peak exercise ST segment
+ 
  12.  number of major vessels (0-3) colored by flourosopy
+ 
  13.   thal: 3 = normal; 6 = fixed defect; 7 = reversable defect*
 ## Algorithm 
 This is a classification problem (binary classification) and the results can be interpreted as 0 and 1 (0 = without heart disease, 1 = with heart disease). I used two methods: a [neural network]( https://en.wikipedia.org/wiki/Artificial_neural_network) using **Keras**, and [Logistic Regression](https://en.wikipedia.org/wiki/Logistic_regression#:~:text=Logistic%20regression%20is%20a%20statistical,a%20form%20of%20binary%20regression). My neural network involves the use of [Early Stopping](https://en.wikipedia.org/wiki/Early_stopping) and [Dropout Layers](https://keras.io/api/layers/regularization_layers/dropout/) to prevent overfitting of the data. Logistic Regression is used when dealing with categorical data (in this case, patients with and without heart disease).
@@ -29,6 +41,7 @@ This is a classification problem (binary classification) and the results can be 
 | Neural Network|  87%| 0 = 86%, 1 = 87%| 0 = 86%, 1 = 87%| 0 = 86%, 1 = 87%
 ## Use
 There is a csv file with the dataset: [**heart.csv**](https://github.com/anyaiyer/heart-disease-predictor/blob/main/heart.csv). 
+
 [**Heart Disease Predictor.ipynb**](https://github.com/anyaiyer/heart-disease-predictor/blob/main/Heart%20Disease%20Predictor.ipynb) contains my code (EDA, train test split, and building the model). 
 
 Use of matplotlib, pandas, numpy, seaborn, scikit learn, and tensorflow.keras is needed. Update to Python 3.5 is recommended.  
