@@ -31,6 +31,7 @@ In the data, you are given several attributes:
  12.  number of major vessels (0-3) colored by flourosopy
  
  13.   thal: 3 = normal; 6 = fixed defect; 7 = reversable defect
+
 ## Algorithm 
 This is a classification problem (binary classification) and the results can be interpreted as 0 and 1 (0 = without heart disease, 1 = with heart disease). I used two methods: a [neural network]( https://en.wikipedia.org/wiki/Artificial_neural_network) using **Keras**, and [Logistic Regression](https://en.wikipedia.org/wiki/Logistic_regression#:~:text=Logistic%20regression%20is%20a%20statistical,a%20form%20of%20binary%20regression). My neural network involves the use of [Early Stopping](https://en.wikipedia.org/wiki/Early_stopping) and [Dropout Layers](https://keras.io/api/layers/regularization_layers/dropout/) to prevent overfitting of the data. Logistic Regression is used when dealing with categorical data (in this case, patients with and without heart disease).
 
@@ -48,7 +49,5 @@ There is a csv file with the dataset: [**heart.csv**](https://github.com/anyaiye
 
 [**heart-disease-LR.pkl**](https://github.com/anyaiyer/heart-disease-predictor/blob/main/heart-disease-LR.pkl) is the second model with Logistic Regression.
 
-Use of matplotlib, pandas, numpy, seaborn, scikit learn, and tensorflow.keras is needed. Update to Python 3.5 is recommended.  
-
-
+Use of matplotlib, pandas, numpy, seaborn, scikit learn, and tensorflow.keras is needed. Update to Python 3.5 is recommended.
 
