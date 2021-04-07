@@ -38,11 +38,15 @@ This is a classification problem (binary classification) and the results can be 
 | Type | Accuracy |  Precision| Recall|F1-Score|
 |--|--|--|--|--|
 | Logistic Regression | 85% | 0 = 88%, 1 = 82% | 0 = 80%, 1 = 89% |0 = 83%, 1 = 86%   |
-| Neural Network|  87%| 0 = 86%, 1 = 87%| 0 = 86%, 1 = 87%| 0 = 86%, 1 = 87%
+| Neural Network|  87%| 0 = 88%, 1 = 86%| 0 = 84%, 1 = 89%| 0 = 86%, 1 = 88%
 ## Use
 There is a csv file with the dataset: [**heart.csv**](https://github.com/anyaiyer/heart-disease-predictor/blob/main/heart.csv). 
 
 [**Heart Disease Predictor.ipynb**](https://github.com/anyaiyer/heart-disease-predictor/blob/main/Heart%20Disease%20Predictor.ipynb) contains my code (EDA, train test split, and building the model). 
+
+[**heart-disease-predictor.h5**](https://github.com/anyaiyer/heart-disease-predictor/blob/main/heart-disease-predictor.h5) is the Neural Network model with Keras.
+
+[**heart-disease-LR.pkl**](https://github.com/anyaiyer/heart-disease-predictor/blob/main/heart-disease-LR.pkl) is the second model with Logistic Regression.
 
 Use of matplotlib, pandas, numpy, seaborn, scikit learn, and tensorflow.keras is needed. Update to Python 3.5 is recommended.  
 
