@@ -17,7 +17,11 @@ I used two methods: a neural network using Keras, and Logistic Regression. My ne
 Layers to prevent overfitting of the data. Logistic Regression is used when dealing with categorical data (in this case, patients with and without heart disease).
 My neural network had an overall accuracy of 87% while my model involving Logistic Regression had an accuracy of 85%. 
 
+https://en.wikipedia.org/wiki/Logistic_regression#:~:text=Logistic%20regression%20is%20a%20statistical,a%20form%20of%20binary%20regression). 
+https://en.wikipedia.org/wiki/Artificial_neural_network
+
 ## Use
 There is a csv file with the dataset. Heart Disease Predictor.ipynb contains my code (EDA, model, and save model). 
+Use of matplotlib, pandas, numpy, seaborn, scikit learn, and tensorflow.keras. Updated to Python 3.5 is recommended.  
 
 
