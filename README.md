@@ -6,7 +6,7 @@ This dataset is from UCI Machine Learning and can be downloaded here: https://ww
 ## Dataset Specifics
 In the data, you are given several attributes: 
 
- *1. age
+ 1. age
  
  2. sex
  
@@ -30,7 +30,7 @@ In the data, you are given several attributes:
  
  12.  number of major vessels (0-3) colored by flourosopy
  
- 13.   thal: 3 = normal; 6 = fixed defect; 7 = reversable defect*
+ 13.   thal: 3 = normal; 6 = fixed defect; 7 = reversable defect
 ## Algorithm 
 This is a classification problem (binary classification) and the results can be interpreted as 0 and 1 (0 = without heart disease, 1 = with heart disease). I used two methods: a [neural network]( https://en.wikipedia.org/wiki/Artificial_neural_network) using **Keras**, and [Logistic Regression](https://en.wikipedia.org/wiki/Logistic_regression#:~:text=Logistic%20regression%20is%20a%20statistical,a%20form%20of%20binary%20regression). My neural network involves the use of [Early Stopping](https://en.wikipedia.org/wiki/Early_stopping) and [Dropout Layers](https://keras.io/api/layers/regularization_layers/dropout/) to prevent overfitting of the data. Logistic Regression is used when dealing with categorical data (in this case, patients with and without heart disease).
 
